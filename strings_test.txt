@@ -1,0 +1,70 @@
+Grupo 1:
+
+TODO
+
+===================================================================================================================
+
+Grupo 2:
+                                              IEEE
+
+1 - "Document Title":"network slicing" AND ("Document Title":"AI" OR "Document Title":"Artificial Intelligence" OR "Document Title":"ML" OR "Document Title":"Machine Learning" OR "Document Title":"Intelligent" OR "Smart")
+Negative:
+  --> Brings a lot of results about smart grid, smart home and so on. Does not specifies AI for network slicing
+  --> Lots of not so relevant results
+Positive:
+  --> All most relevant results should be among the results
+
+Key:
+  --> How to filter out not so relevant stuff, like smart grid and such?
+
+
+2- "Document Title":"AI network slicing" OR "Document Title":"artificial intelligence network slicing" OR "Document Title":"ML network slicing" OR "Document Title":"Intelligent network slicing" OR "Smart network slicing"
+
+
+                                        Google Scholar
+
+1- intitle:"Network Slicing" AND (intitle:"AI" OR intitle:"Artificial Intelligence")
+
+===================================================================================================================
+
+Grupo 3:
+
+TODO
+
+===================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(
+  "Document Title":"network slicing" OR
+  "Document Title":"network slice" OR
+  "Document Title":"5G"
+)
+AND
+(
+   "Full Text .AND. Metadata":"network slicing"
+)
+AND
+(
+  "Document Title":"AI" OR
+  "Document Title":"Artificial Intelligence" OR
+  "Document Title":"ML" OR
+  "Document Title":"Machine Learning" OR
+  "Document Title":"Intelligent" OR
+  "Document Title":"Smart"
+)
