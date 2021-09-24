@@ -105,17 +105,17 @@ Filter: 2016 ~ 2021
 (
   "Document Title":"Network Slicing" OR
   "Document Title":"Network Slice" OR
+  "Document Title":"Resource Slicing" OR
   "Document Title":"5G" OR
   "Document Title":"6G" OR
   "Document Title":"Slicing"
 )
 AND
 (
-   "Full Text .AND. Metadata":"network slicing" AND
-   (
-     "Full Text .AND. Metadata":"5G" OR
-     "Full Text .AND. Metadata":"6G"
-   )
+  "Full Text .AND. Metadata":"network slicing" OR
+  "Full Text .AND. Metadata":"resource slicing" OR
+  "Full Text .AND. Metadata":"network slice" OR
+  "Full Text .AND. Metadata":"resource slice"
 )
 AND
 (
@@ -139,6 +139,7 @@ AND
 (
   "Abstract":"Network Slicing" OR
   "Abstract":"Network Slice" OR
+  "Abstract":"Resource Slicing" OR
   "Abstract":"5G" OR
   "Abstract":"6G" OR
   "Abstract":"Slicing"
@@ -161,5 +162,10 @@ AND
   "Abstract":"Zero-Touch" OR
   "Abstract":"Zero Touch"
 )
+
+Filter: 2016 ~ 2021
+
+=================================
+
 
 ================================================================================
