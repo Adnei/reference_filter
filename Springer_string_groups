@@ -1,0 +1,19 @@
+------ String G21:
+------ (Usada também no ACM)
+
+(resource OR network) AND slice AND (IA OR dynamic OR "zero touch" OR "zero-touch" OR intelligent OR smart OR learning) AND (5G OR 6G)
+
+Filter: 2016 ~ 2021; do NOT include preview content; english
+
+--> Remover "Medicine" e "Biomedicine"
+
+################################################################################
+
+------ String G22:
+------ (Usada também no ACM)
+
+(resource OR network) AND slice AND (IA OR dynamic OR "zero touch" OR "zero-touch" OR intelligent OR smart OR learning) AND (5G OR 6G) NOT "medicine" NOT "biomedicine" NOT "physics" NOT "life sciences" NOT "earth sciences" NOT "economics" NOT "chemistry" NOT "mathematics"
+
+Filter: 2016 ~ 2021; do NOT include preview content; english
+
+--> Existem documentos "preview only" importantes!

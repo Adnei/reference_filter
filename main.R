@@ -15,7 +15,7 @@ core_g2ieee <- read.table("data/IEEE/G2_core_documents", sep="|", head=T, string
 data_g21ieee <- read.csv("data/IEEE/G21_IEEE_2021.09.14-18.19.19.csv", head=T, stringsAsFactors=F)
 data_g22ieee <- read.csv("data/IEEE/G22_IEEE_2021.09.17-01.42.49.csv", head=T, stringsAsFactors=F)
 data_g23ieee <- read.csv("data/IEEE/G23_IEEE_2021.09.17-02.11.15.csv", head=T, stringsAsFactors=F)
-data_g24ieee <- read.csv("data/IEEE/G24_IEEE_2021.09.23-21.21.21.csv", head=T, stringsAsFactors=F)
+data_g24ieee <- read.csv("data/IEEE/G24_IEEE_2021.10.07-21.09.18.csv", head=T, stringsAsFactors=F)
 #data_g25ieee <- read.csv("data/IEEE/G25_IEEE_2021.09.23-20.39.33.csv", head=T, stringsAsFactors=F)
 
 score_g21ieee <- score_fn(data_g21ieee, core_g2ieee)

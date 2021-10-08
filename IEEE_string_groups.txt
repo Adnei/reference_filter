@@ -1,0 +1,173 @@
+================================================================================
+                            Grupo 2 - IEEE
+=================================
+------ String G21:
+
+(
+  "Document Title":"network slicing" OR
+  "Document Title":"network slice" OR
+  "Document Title":"5G"
+)
+AND
+(
+   "Full Text .AND. Metadata":"network slicing"
+)
+AND
+(
+  "Document Title":"AI" OR
+  "Document Title":"Artificial Intelligence" OR
+  "Document Title":"ML" OR
+  "Document Title":"Machine Learning" OR
+  "Document Title":"Intelligent" OR
+  "Document Title":"Smart"
+)
+
+Filter: 2016 ~ 2021
+=================================
+------ String G22:
+
+(
+  "Document Title":"Network Slicing" OR
+  "Document Title":"Network Slice" OR
+  "Document Title":"5G" OR
+  "Document Title":"6G" OR
+  "Document Title":"Slicing"
+)
+AND
+(
+   "Full Text .AND. Metadata":"network slicing" AND
+   (
+     "Full Text .AND. Metadata":"5G" OR
+     "Full Text .AND. Metadata":"6G"
+   )
+)
+AND
+(
+  "Document Title":"AI" OR
+  "Document Title":"Artificial Intelligence" OR
+  "Document Title":"ML" OR
+  (
+    (
+      "Document Title":"Federated" OR
+      "Document Title":"Machine" OR
+      "Document Title":"Deep"
+    ) AND
+    "Document Title":"Learning"
+  ) OR
+  "Document Title":"Intelligent" OR
+  "Document Title":"Smart" OR
+  "Document Title":"Zero-Touch" OR
+  "Document Title":"Zero Touch"
+)
+
+Filter: 2016 ~ 2021
+=================================
+------ String G23:
+
+(
+  "Abstract":"Network Slicing" OR
+  "Abstract":"Network Slice" OR
+  "Abstract":"5G" OR
+  "Abstract":"6G" OR
+  "Abstract":"Slicing"
+)
+AND
+(
+   "Full Text .AND. Metadata":"network slicing" AND
+   (
+     "Full Text .AND. Metadata":"5G" OR
+     "Full Text .AND. Metadata":"6G"
+   )
+)
+AND
+(
+  "Abstract":"AI" OR
+  "Abstract":"Artificial Intelligence" OR
+  "Abstract":"ML" OR
+  (
+    (
+      "Abstract":"Federated" OR
+      "Abstract":"Machine" OR
+      "Abstract":"Deep"
+    ) AND
+    "Abstract":"Learning"
+  ) OR
+  "Abstract":"Intelligent" OR
+  "Abstract":"Smart" OR
+  "Abstract":"Zero-Touch" OR
+  "Abstract":"Zero Touch"
+)
+
+Filter: 2016 ~ 2021
+=================================
+------ String G24:
+
+(
+  "Document Title":"Network Slicing" OR
+  "Document Title":"Network Slice" OR
+  "Document Title":"Resource Slicing" OR
+  "Document Title":"5G" OR
+  "Document Title":"6G" OR
+  "Document Title":"Slicing"
+)
+AND
+(
+  "Full Text .AND. Metadata":"network slicing" OR
+  "Full Text .AND. Metadata":"resource slicing" OR
+  "Full Text .AND. Metadata":"network slice" OR
+  "Full Text .AND. Metadata":"resource slice"
+)
+AND
+(
+  "Document Title":"Dynamic" OR
+  "Document Title":"AI" OR
+  "Document Title":"Artificial Intelligence" OR
+  "Document Title":"ML" OR
+  (
+    (
+      "Document Title":"Federated" OR
+      "Document Title":"Machine" OR
+      "Document Title":"Deep"
+    ) AND
+    "Document Title":"Learning"
+  ) OR
+  "Document Title":"Intelligent" OR
+  "Document Title":"Smart" OR
+  "Document Title":"Zero-Touch" OR
+  "Document Title":"Zero Touch"
+)
+AND
+(
+  "Abstract":"Network Slicing" OR
+  "Abstract":"Network Slice" OR
+  "Abstract":"Resource Slicing" OR
+  "Abstract":"5G" OR
+  "Abstract":"6G" OR
+  "Abstract":"Slicing"
+)
+AND
+(
+  "Abstract":"Dynamic" OR
+  "Abstract":"AI" OR
+  "Abstract":"Artificial Intelligence" OR
+  "Abstract":"ML" OR
+  (
+    (
+      "Abstract":"Federated" OR
+      "Abstract":"Machine" OR
+      "Abstract":"Deep"
+    ) AND
+    "Abstract":"Learning"
+  ) OR
+  "Abstract":"Intelligent" OR
+  "Abstract":"Smart" OR
+  "Abstract":"Zero-Touch" OR
+  "Abstract":"Zero Touch"
+)
+
+Filter: 2016 ~ 2021
+
+=================================
+
+
+================================================================================
